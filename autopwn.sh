@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# AutoPent - Advanced Penetration Testing Toolkit
-# Author: Security Professional
+# AutoPwn - Penetration Testing Toolkit
 # Version: 2.0
-# Date: $(date +%Y-%m-%d)
 
 # Configuration
 LOG_DIR="./logs"
@@ -638,7 +636,7 @@ main_menu() {
 
 # Start the script
 clear
-echo -e "${GREEN}"
+echo -e "${RED}"
 cat << "EOL"
  
  █████╗ ██╗   ██╗████████╗ ██████╗ ██████╗ ██╗    ██╗███╗   ██╗
@@ -650,7 +648,7 @@ cat << "EOL"
                                                                
 EOL
 echo -e "${NC}"
-echo "Advanced Penetration Testing Toolkit"
+echo "Penetration Testing Toolkit"
 echo "Version 2.0 | $(date +%Y)"
 echo ""
 
